@@ -16,15 +16,13 @@
                 "server": "223.5.5.5",
                 "server_port": 443,
                 "path": "/dns-query",
-                "domain_resolver": "dns_resolver",
-                "detour": "direct"
+                "domain_resolver": "dns_resolver"
             },
             {
                 "tag": "dns_resolver",
                 "type": "udp",
                 "server": "223.5.5.5",
-                "server_port": 53,
-                "detour": "direct"
+                "server_port": 53
             }
         ],
         "rules": [
@@ -178,6 +176,13 @@
                 "type": "remote",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-private.srs",
                 "format": "binary",
+                "download_detour": "select"
+            },
+            {
+                "tag": "geosite-geolocation-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs",
                 "download_detour": "select"
             },
             {
