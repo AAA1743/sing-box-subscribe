@@ -174,125 +174,93 @@
             {
                 "tag": "geosite-private",
                 "type": "remote",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-private.srs",
+                "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-private.srs",
                 "format": "binary",
-                "download_detour": "select"
+                "download_detour": "direct"
             },
             {
                 "tag": "geosite-geolocation-cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-geolocation-cn.srs",
+                "download_detour": "direct"
             },
             {
                 "tag": "geosite-geolocation-!cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-geolocation-!cn.srs",
+                "download_detour": "direct"
             },
             {
                 "tag": "geosite-cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-cn.srs",
+                "download_detour": "direct"
             },
             {
                 "tag": "geoip-cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-                "download_detour": "select"
-            },
-            {
-                "tag": "geoip-google",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-google.srs",
-                "download_detour": "select"
-            },
-            {
-                "tag": "geoip-telegram",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-telegram.srs",
-                "download_detour": "select"
-            },
-            {
-                "tag": "geoip-twitter",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-twitter.srs",
-                "download_detour": "select"
-            },
-            {
-                "tag": "geoip-netflix",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-netflix.srs",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geoip@rule-set/geoip-cn.srs",
+                "download_detour": "direct"
             },
             {
                 "tag": "Global",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Global.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/Global.json",
+                "download_detour": "direct"
             },
             {
                 "tag": "YouTube",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/YouTube.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/YouTube.json",
+                "download_detour": "direct"
             },
             {
                 "tag": "OpenAI",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/OpenAI.json",
-                "download_detour": "select"
-            },
-            {
-                "tag": "TikTok",
-                "type": "remote",
-                "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/TikTok.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/OpenAI.json",
+                "download_detour": "direct"
             },
             {
                 "tag": "Telegram",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Telegram.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/Telegram.json",
+                "download_detour": "direct"
             },
             {
                 "tag": "Netflix",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Netflix.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/Netflix.json",
+                "download_detour": "direct"
             },
             {
                 "tag": "WeChat",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/WeChat.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/WeChat.json",
+                "download_detour": "direct"
             },
             {
                 "tag": "Bilibili",
                 "type": "remote",
                 "format": "source",
-                "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Bilibili.json",
-                "download_detour": "select"
+                "url": "https://cdn.jsdelivr.net/gh/yangchuansheng/sing-box-geosite@main/rule/Bilibili.json",
+                "download_detour": "direct"
             }
         ],
         "final": "direct",
-        "auto_detect_interface": true
+        "auto_detect_interface": true,
+        "default_domain_resolver": {
+            "server": "dns_resolver"
+        }
     },
     "experimental": {
         "cache_file": {
